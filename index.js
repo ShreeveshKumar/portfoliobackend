@@ -13,7 +13,7 @@ const PORT = process.env.PORT;
 app.use(express.json());
 app.use(
     cors({
-        origin:"https://wait-chi.vercel.app",
+        origin:"https://wait-chi.vercel.app/Contact",
     })
 )
 
