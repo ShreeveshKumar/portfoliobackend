@@ -13,7 +13,7 @@ const PORT = process.env.PORT;
 app.use(express.json());
 app.use(
   cors({
-    origin: "https://shreevesh.vercel.app/Contact",
+    origin: "https://shreevesh.vercel.app",
   })
 );
 
